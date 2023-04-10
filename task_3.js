@@ -8,4 +8,4 @@ function getFibonacciNumbers(n) {
     return fibonacci;
   }
   
-  console.log(getFibonacciNumbers(10));
+  console.log(getFibonacciNumbers(15));
