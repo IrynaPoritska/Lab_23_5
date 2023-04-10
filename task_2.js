@@ -4,5 +4,5 @@ function capitalizeFirstLetter(str) {
     }).join(' ');
   }
   
-  console.log(capitalizeFirstLetter('це речення буде проаналізоване'));  
+  console.log(capitalizeFirstLetter('це речення буде проаналізоване'));  .
   
