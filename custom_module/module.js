@@ -1,5 +1,3 @@
-const store = require('./store.js');
-
 
 exports.addStore = require('./store').addStore;
 exports.editStore = require('./store').editStore;

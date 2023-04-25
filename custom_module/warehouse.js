@@ -42,10 +42,10 @@ class Warehouse {
   return -1;
   }
   
-  function addProductToWarehouse(name, price, warehouse) {
-  let newProduct = new Product(name, price);
-  warehouse.inventory.push(newProduct);
-  return newProduct;
+  function addProductToWarehouse(product, quantity, warehouse) {
+    for (let i = 0; i < quantity; i++) {
+      warehouse.inventory.push(product);
+    }
   }
   
   function removeProductFromWarehouse(name, price, warehouse) {

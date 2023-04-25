@@ -2,14 +2,14 @@ function mergeSort(array) {
     if (array.length <= 1) {
       return array;
     }
-  
-    const middleIndex = Math.floor(array.length / 2);
+  //розділяємо
+    const middleIndex = Math.floor(array.length / 2); 
     const leftArray = array.slice(0, middleIndex);
     const rightArray = array.slice(middleIndex);
   
     return mergeArrays(mergeSort(leftArray), mergeSort(rightArray));
   }
-  
+  //функція отримує два відсортованих масиви, об'єднує в один відсортований масив.
   function mergeArrays(leftArray, rightArray) {
     const sortedArray = [];
   
