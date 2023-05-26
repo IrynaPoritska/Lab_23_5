@@ -105,7 +105,7 @@ console.log(`Знайдений товар: ${foundProductInWarehouse.name} за
 } else {
 console.log("Знайдений товар: Не знайдено");
 }
-console.log("--------------------------------------------------------");
+console.log("---------------------------------------------------------");
  
 let removeProductFromWarehouseResult = warehouseModule.removeProductFromWarehouse('iPhone 14', 1500, newWarehouse);
 if (removeProductFromWarehouseResult === 1) {
